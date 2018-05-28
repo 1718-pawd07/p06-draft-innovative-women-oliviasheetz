@@ -2,11 +2,13 @@
 *  Date: 23 May 2018
 *  Lab: Final Project */
 
+/* zero out all margins and padding */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* css for body section */
 body {
     width: 100%;
     background-color: white;
@@ -14,10 +16,12 @@ body {
     border: 1px solid black;
 }
 
+/* css for h1 section */
 h1 {
     padding: 10px;
 }
 
+/* css for header section */
 header {
     border-bottom: 2px solid #ef9c00;
     color: #001B44;
@@ -28,36 +32,96 @@ header {
 	padding: 1em;
 }
 
+/* css for sidebarA section */
 #sidebarA {
     width: 24%;
-    height: 500px;
+    height: 600px;
     float: left;
     border-right: 2px solid #002742;
     text-align: center;
 }
 
+/* css for main section */
 main {
     width: 50%;
-    height: 500px;
+    height: 600px;
     float: left;
 }
 
+/* css for sidebarB section */
 #sidebarB {
     width: 24%;
-    height: 500px;
-    float: right;
+    height: 600px;
+    float: left;
     border-left: 2px solid #002742;
     text-align: center;
 }
+
+/* css for footer section */
 footer {
     clear: both;
     border-top: 5px solid #001B44;
     color: #001B44;
-    text-align: right;
+    text-align: left;
     background-color: #DFF2FF;
-    padding: 1em;
+    padding: .5em;
 }
 
-.text {
-	margin: 10px;
+
+/* css for h2 and h3 sections */
+h2, h3 {
+	color: #EB984E;
 }
+
+/* css for class text section */
+.text {
+	margin: 8px;
+	padding: .5px;
+}
+
+/* css for class photo section */
+.photo {
+	float: left;
+	width: 10em;
+	height: 13em;
+	margin: .3em;
+	border: .2em solid #EB984E;
+}
+
+/* css for class photo2 section */
+.photo2 {
+	width: 16em;
+	height: 10em;
+	margin: .3em;
+	border: .2em solid #EB984E;
+}
+
+/* css for class facts section */
+.facts {
+	text-decoration: underline;
+}
+
+/* css for class accomplishments section */
+.accomplishments {
+	text-decoration: underline;
+}
+
+/* css for photo3 text section */
+.photo3 {
+	width: 13em;
+	height: 15em;
+	margin: .3em;
+	border: .2em solid #EB984E;
+}
+
+/* css for class sources section */
+.sources {
+	float: right;
+	color: #EB984E;
+}
+
+/* css for class link section */
+.link {
+	color: #EB984E;
+	margin: .2em;
+
